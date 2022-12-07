@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        subscriptionIds: ["699e9025-f20f-4992-b011-38c0c06454e8"]
+        subscriptionIds: ["b85f94f2-f83b-476b-a9de-c3b7c82238de"]
     steps:
     - name: Login to Azure
       uses: azure/login@v1
