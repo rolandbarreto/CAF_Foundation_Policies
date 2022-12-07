@@ -1,0 +1,28 @@
+{
+ "sku": {
+  "name": "A1",
+  "tier": "Standard"
+ },
+ "properties": {
+  "displayName": "Append CostCenter TAG & its value from the Resource Group",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9ea02ca2-71db-412d-8b00-7c7ca9fcd32d",
+  "scope": "/subscriptions/b85f94f2-f83b-476b-a9de-c3b7c82238de",
+  "notScopes": [],
+  "parameters": {
+   "tagName": {
+    "value": "CostCenter"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "createdBy": "205fe794-02c8-4905-9420-86626ca79e84",
+   "createdOn": "2022-12-07T14:53:31.562988Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/b85f94f2-f83b-476b-a9de-c3b7c82238de/providers/Microsoft.Authorization/policyAssignments/06ff0ac82b1ccd106dffc1eef7d48302f7c9c3f0814b1a31cabbd259a5cd6942",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "06ff0ac82b1ccd106dffc1eef7d48302f7c9c3f0814b1a31cabbd259a5cd6942"
+}
